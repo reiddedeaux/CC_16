@@ -67,3 +67,7 @@ function displayProducts(products){
 function handleError(error){
     console.log("An error has happened", error); //logging a message if an error happens into the console
 }
+// Task 6
+fetchProductsThen();
+
+fetchProductsAsync();
