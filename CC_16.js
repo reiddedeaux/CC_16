@@ -63,3 +63,7 @@ function displayProducts(products){
         divProductContainer.append(productCard);
     })
 }
+//Task 5 
+function handleError(error){
+    console.log("An error has happened", error); //logging a message if an error happens into the console
+}
